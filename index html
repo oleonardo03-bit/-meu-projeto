@@ -1,1 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Agrinho 2026 - EcoSolo PR</title>
+    <style>
+        body { 
+            background-color: #f1f8f5; 
+            color: #2c3e50; 
+            font-family: sans-serif; 
+            margin: 0;
+            padding: 0; 
+        }
+        
+        .topo-site {
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1625246333195-78d9c38ad451?q=80&w=1200');
+            background-size: cover; 
+            background-position: center; 
+            color: white; 
+            text-align: center;
+            padding: 60px 20px;
+        }
 
+        .conteudo { 
+            max-width: 800px; 
+            margin: 30px auto; 
+            padding: 20px; 
+            background: white; 
+            border-radius: 8px; 
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+        }
+
+        .info-projeto {
+            background-color: #e8f5e9;
+            padding: 15px;
+            border-left: 5px solid #4caf50;
+            margin-bottom: 20px;
+            border-radius: 4px;
+        }
+
+        .botao-projeto {
+            background-color: #ff9800; 
+            color: white; 
+            border: none; 
+            padding: 12px 30px; 
+            font-size: 16px;
+            font-weight: bold; 
+            border-radius: 30px; 
+            cursor: pointer; 
+            transition: transform 0.3s ease, background-color 0.3s ease; 
+            margin-top: 15px;
+        }
+        
+        .botao-projeto:hover { 
+            background-color: #e65100; 
+            transform: scale(1.1) translateY(-3px); 
+        }
+    </style>
+</head>
+<body>
+
+    <header class="topo-site">
+        <h1>EcoSolo PR: Irrigação Inteligente</h1>
+        <p>Tecnologia e Sustentabilidade no Concurso Agrinho 2026</p>
+    </header>
+
+    <div class="conteudo">
+        <div class="info-projeto">
+            <p><strong>Tema:</strong> Agro Forte, Futuro Sustentável</p>
+            <p><strong>Projeto:</strong> EcoSolo PR</p>
+            <p><strong>Público-alvo:</strong> Alunos do 9º Ano / Agricultores Familiares do Paraná</p>
+        </div>
+
+        <h2>Objetivo do Projeto</h2>
+        <p>Promover a sustentabilidade na produção de alimentos do Paraná através do uso eficiente da água, evitando o desperdício nos recursos hídricos e garantindo uma lavoura mais produtiva e ecológica.</p>
+
+        <h2>Descrição</h2>
+        <p>O <strong>EcoSolo PR</strong> é uma iniciativa voltada para o campo que utiliza sensores conectados para ajudar o agricultor a monitorar a umidade do solo em tempo real. Com esses dados, o sistema avisa o momento exato e a quantidade certa de água que a planta precisa. Isso economiza água, reduz custos de produção, protege o meio ambiente e fortalece o futuro do agro paranaense!</p>
+        
+        <button class="botao-projeto" onclick="alert('Obrigado pelo seu apoio ao EcoSolo PR!')">Apoiar essa Ideia</button>
+    </div>
+
+</body>
+</html>
